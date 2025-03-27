@@ -1,0 +1,78 @@
+.main{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.fa-bars{
+    color: #737373;
+    padding:15px 10px;
+    border: 1px solid #73737348;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.mainLeft{
+    padding:9px 40px;
+}
+.mainLeft img{
+    height: 60px;
+    width: 60px;
+}
+.mainLeft h1{
+    color: #06BBCC;
+}
+
+.mainRight {
+    a{
+    font-family: "Heebo",sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    }
+    a.active{
+        color: #06BBCC;
+    }
+}
+.mainRight a:hover{
+    color: #06BBCC;
+}
+
+.mainRightJoin{
+    background-color: #06BBCC ;
+    padding: 28px 48px;
+    color: white;
+    font-size: 15px;
+    font-family: "Heebo", sans-serif;
+    font-weight: 650;
+    cursor: pointer;  
+}
+.menu{
+    font-family: "Heebo", sans-serif;
+    position: fixed;
+    top: 60px;
+    padding: 19px 55px;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    a.active{
+        color: #06BBCC;
+    }
+}
+
+.menu a:hover{
+    color: #06BBCC;
+}
+.page{
+    position: fixed;
+    top: 80px;
+    right: 220px;
+    width: 150px;
+    padding: 15px;
+    box-shadow: rgba(86, 86, 96, 0.2) 0px 7px 29px 0px;   
+    background-color: white;
+    z-index: 1;
+}

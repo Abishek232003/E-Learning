@@ -1,0 +1,319 @@
+.main {
+  margin-top: 80px;
+}
+a {
+  text-decoration: none;
+}
+.eLearning {
+  padding: 0% 8%
+}
+.heading {
+  h3 {
+    color: #06BBCC;
+    font-family: "Nunito", sans-serif;
+    font-weight: 820;
+  }
+  h1 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 850;
+    font-size: 2.5rem;
+  }
+}
+.slide {
+  background: url("/carousel-1.jpg") no-repeat;
+  background-size: cover;
+}
+.layer {
+  background: rgba(24, 29, 56, .7);
+  padding: 17% 5.5%;
+  color: white;
+}
+.layerContent {
+  font-family: "Nunito", sans-serif;
+}
+.layerContent h3 {
+  color: #06BBCC;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  font-weight: 750;
+}
+.layerContent h1 {
+  font-size: calc(1.525rem + 3.3vw);
+  font-weight: 820;
+  line-height: 95%;
+}
+.layerContent p {
+  font-size: 22px;
+}
+.Read {
+  background-color: #06BBCC;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1.5% 5%;
+  cursor: pointer;
+}
+.Join {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1.5% 5%;
+  cursor: pointer;
+}
+.card {
+  padding: 5% 2%;
+  background-color: #06bbcc0e;
+  margin-bottom: 15px;
+  transition: .5s;
+  text-align: center;
+}
+.fa-solid {
+  color: #06BBCC;
+}
+.card:hover {
+  transform: translateY(-10px);
+  color: #ffff;
+  background-color: #06BBCC;
+  .fa-solid {
+    color: white;
+  }
+}
+.card p {
+  font-size: 16px;
+}
+.card h2 {
+  font-size: 20px;
+}
+.about img {
+  height: 451px;
+}
+.l1 {
+  height: 2px;
+  width: 40px;
+  background-color: #06BBCC;
+}
+.l2 {
+  height: 2px;
+  width: 60px;
+  background-color: #06bbcc;
+}
+.aboutDesign h4 {
+  color: #06BBCC;
+  font-family: "Nunito", sans-serif;
+  font-weight: 820;
+}
+.aboutContent p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #52565b;
+  font-family: "Heebo", sans-serif;
+}
+.read {
+  font-size: 1rem;
+  border: none;
+  background-color: #06bbcc;
+  font-weight: bold;
+  padding: 16px 2px;
+  color: white;
+  cursor: pointer;
+}
+.catImg {
+  padding: 5% 0%;
+}
+.catImg .overlay {
+  position: absolute;
+  font-family: "Nunito", sans-serif;
+  margin: 1px;
+  padding: 10px;
+  background-color: white;
+}
+.catImg .overlay p {
+  color: #06BBCC;
+}
+.catImg .overlay h3 {
+  font-weight: 820;
+}
+.courseOverlay {
+  position: absolute;
+  width: 200px;
+  margin-bottom: 20px;
+  a {
+    padding: 2% 5%;
+    color: #ffff;
+    text-decoration: none;
+  }
+  .overlayRead {
+    background-color: #06BBCC;
+    border-radius: 30px 0% 0% 30px;
+    border-right: 1px solid;
+  }
+  .overlayJoin {
+    background-color: #06BBCC;
+    border-radius: 0% 30px 30px 0%;
+  }
+}
+.popularCourse {
+  background-color: #F0FBFC;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  margin-top: 20px;
+}
+.popularCourse h3 {
+  font-size: 1.4rem;
+  font-weight: 750;
+}
+.courseContent {
+  padding: 5px;
+}
+.courseContent h2 {
+  font-weight: 850;
+}
+.subContent {
+  border-top: 1px solid #dee2e6;
+}
+.content {
+  padding: 5px 10px;
+  border-right: 1px solid #dee2e6;
+}
+.content:last-child {
+  border-right: none;
+}
+.popimg,
+.Graphic {
+  overflow: hidden;
+}
+.Graphic img:hover,
+.popimg img:hover {
+  scale: 1.1;
+  transition: 1s;
+}
+.instruction {
+  .instructorInfo {
+    background-color: #F0FBFC;
+    margin-top: 20px;
+    .instructorImage {
+      .social {
+        position: absolute;
+        background-color: #F0FBFC;
+        padding: 7px;
+        transform: translateY(20px);
+      }
+    }
+    .fab {
+      color: #ffff;
+      background-color: #06BBCC;
+      padding: 15px 10px;
+    }
+    .instructorContent {
+      padding: 8% 0%;
+      h3 {
+        font-family: "Nunito", sans-serif;
+        font-weight: 820;
+      }
+      p {
+        font-family: "Heebo", sans-serif;
+        color: #52565b;
+      }
+    }
+  }
+}
+.testimonial {
+  .testImg {
+    img {
+      padding: 15px;
+      height: 80px;
+      width: 80px;
+      border: 1px solid #dee2e6;
+      border-radius: 50%;
+    }
+  }
+  .testContent {
+    padding: 25px;
+    font-family: "Heebo", sans-serif;
+    background-color: #F0FBFC;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .btn .span {
+    height: 15px;
+    width: 15px;
+    border: 1px solid black;
+  }
+}
+.footer {
+  padding: 4% 8% 0% 8%;
+  color: white;
+  background-color: #181D38;
+  font-family: "Heebo", sans-serif;
+  .quick,
+  .contact,
+  .mainGal,
+  .newsLetter {
+    margin-top: 20px;
+  }
+  h3 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 850;
+    font-size: 1.4rem;
+  }
+  .fa-solid {
+    color: white;
+  }
+  .contact {
+    .fa-brands {
+      height: 35px;
+      width: 35px;
+      border: 1px solid white;
+      border-radius: 50%;
+    }
+    .fa-brands:hover {
+      background-color: white;
+      color: #06BBCC;
+      transition: .7s;
+    }
+  }
+  .gallery {
+    img {
+      border: 5px solid white;
+    }
+  }
+  .input {
+    background-color: white;
+    padding: 2%;
+    input {
+      padding: 4% 4%;
+      border: none;
+      outline: none;
+      font-size: 15px;
+    }
+    button {
+      padding: 4% 4%;
+      background-color: #06BBCC;
+      color: white;
+      border: none;
+    }
+  }
+  .line {
+    height: 1px;
+    background-color: rgba(255, 255, 255, .1);
+  }
+  a {
+    color: white;
+  }
+  p>a {
+    text-decoration: underline;
+  }
+  .footerMenu a {
+    padding: 5px;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+    font-size: 15px;
+  }
+  .footerMenu a:last-child {
+    border-right: none;
+  }
+}
+@media screen and (max-width:520px) {
+  .eLearning {
+    padding: 0% 0%
+  }
+}

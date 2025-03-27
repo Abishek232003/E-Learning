@@ -1,0 +1,39 @@
+<div class="main" fxLayout="row" fxLayoutAlign="space-between center">
+    <div class="mainLeft m-0" fxLayout="row" fxLayoutAlign=" center" fxLayoutGap="15px">
+        <i class="fa-solid fa-book fa-2xl"></i>
+        <h1 class="m-0">eLEARNING</h1>
+    </div>
+    <div class="mainRight" fxLayout="row" fxLayoutGap="20px" fxLayoutAlign=" center" fxShow fxHide.lt-md>
+        <a href="#" class="active">HOME</a>
+        <a href="">ABOUT</a>
+        <a>COURSES</a>
+        <a href="#" (click)="showPage()">PAGES <i class="fa-solid fa-chevron-down fa-sm"></i></a>
+        <a href="">CONTACT</a>
+        <div class="mainRightJoin " fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="15px">
+            <p class="m-0">Join Now</p>
+            <span class="material-symbols-outlined">arrow_forward</span>
+        </div>
+    </div>
+    <div fxShow.lt-md fxHide>
+        <i class="fa-solid fa-bars fa-xl" (click)="show()"></i>
+    </div>
+</div>
+@if(isOpen){
+<div class="menu" fxLayout="column" fxLayoutGap="25px" fxShow.lt-md fxHide>
+    <a href="" class="active">HOME</a>
+    <a href="">ABOUT</a>
+    <a href="">COURSES</a>
+    <a href="">PAGES</a>
+    <a href="">CONTACT</a>
+</div>
+}
+@if(isPage){
+<div class="page" fxLayout="column" fxLayoutAlign="start" fxLayoutGap="15px">
+    <a href="">Our Team</a>
+    <a href="">Testimonial</a>
+    <a href="">Page 404</a>
+</div>
+}
+<div style="margin-top: 80px;">
+    <router-outlet></router-outlet>
+</div>
